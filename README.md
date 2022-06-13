@@ -7,21 +7,22 @@
 ```tree
 root/
 　├ libs/
-    └ notion.ts
+    └ notion.ts 
 　├ public/
 
 　├ pages/
     └ index.tsx
     └ _app.tsx
+    └ _document.tsx
     ├ notion
-      └ add.tsx
-      └ index.tsx
+      └ add.tsx // notionのテーブルへデータ送信
+      └ index.tsx // 一覧取得
 
   ├ src/
     ├ components
     ├ types
 
   ├ styles/
-    └ global.css
+    └ global.css 
 
 ```
