@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 
-import Profile from '../src/components/Profile'
+import Profile from '../components/Profile'
 
 const Home: NextPage = () => {
   return (

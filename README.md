@@ -18,9 +18,11 @@ root/
       └ add.tsx // notionのテーブルへデータ送信
       └ index.tsx // 一覧取得
 
-  ├ src/
-    ├ components
-    ├ types
+  ├ components/
+    └ Form.tsx
+
+  ├ types
+    └ index.tsx
 
   ├ styles/
     └ global.css 
