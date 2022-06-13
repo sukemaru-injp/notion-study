@@ -16,7 +16,12 @@ root/
     ├ notion
       └ add.tsx
       └ index.tsx
+
   ├ src/
     ├ components
     ├ types
+
+  ├ styles/
+    └ global.css
+
 ```
