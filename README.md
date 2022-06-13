@@ -26,3 +26,10 @@ root/
     └ global.css 
 
 ```
+
+## 使用技術
+
+- axios
+- ramda
+- styled-components
+- swr
