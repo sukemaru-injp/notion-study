@@ -1,4 +1,7 @@
 import { NextPage, GetServerSideProps } from 'next'
+import Link from 'next/link'
+
+import styled from 'styled-components'
 
 import notion from '../../libs/notion'
 interface PageProps {
@@ -9,10 +12,23 @@ const NotionPage: NextPage<PageProps> = ({ res }: PageProps) => {
   console.log('fetch', res)
   return (
     <>
-      <h2>Notion Index</h2>
+      <Page>
+        <h2>Notion Index</h2>
+        <Link href={'/notion/add'} passHref>
+          <Atag>追加したい</Atag>
+        </Link>
+      </Page>
     </>
   )
 }
+
+const Atag = styled.a`
+color: #0366fc;
+`
+
+const Page = styled.div`
+padding: 30px;
+`
 
 export default NotionPage
 
