@@ -2,6 +2,8 @@ import { FC, MouseEvent, useState } from 'react'
 import styled from 'styled-components'
 import axios from 'axios'
 
+// import { useForm, SubmitHandler } from 'react-hook-form'
+
 import InputAndLabel from './InputAndLabel'
 
 const Form: FC = () => {
@@ -51,7 +53,6 @@ const Form: FC = () => {
     })
     setLoading(false)
     reset()
-    console.log('ok')
   }
   return (
     <>
@@ -102,7 +103,7 @@ text-align: center;
 border-radius: 5px;
 
 &:disabled {
-  background-color: #eee;
+  background-color: #ccc;
 }
 `
 
