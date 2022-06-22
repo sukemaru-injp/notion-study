@@ -32,6 +32,5 @@ root/
 ## 使用技術
 
 - axios
-- ramda
 - styled-components
 - swr
